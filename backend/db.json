@@ -1,0 +1,61 @@
+{ "nation":
+    [
+      {
+        "value":null,
+        "label": "---"
+      },
+      {
+        "value":1,
+        "label":"United Kingdom"
+      },
+      {
+        "value":2,
+        "label":"Italy"
+      },
+      {
+        "value":3,
+        "label":"Spain"
+      }
+  
+    ],
+  
+    "city": 
+    [
+      {
+        "value": null,
+        "label": "---",
+        "nationId": null
+      },
+      {
+        "value": 20,
+        "label": "Bolzano",
+        "nationId": 2
+      },
+      {
+        "value": 21,
+        "label": "Roma",
+        "nationId": 2
+      },
+      {
+        "value": 10,
+        "label": "London",
+        "nationId": 1
+      },
+      {
+        "value": 11,
+        "label": "Edinburgh",
+        "nationId": 1
+      },
+      {
+        "value": 30,
+        "label": "Madrid",
+        "nationId": 3
+      },
+      {
+        "value": 31,
+        "label": "Barcelona",
+        "nationId": 3
+      }
+    ]
+  }
+  

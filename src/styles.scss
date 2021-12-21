@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap.scss';
+body { padding: 10px; }
+
+.display-flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-3 {
+    flex: 3;
+}
+.flex-4 {
+    flex: 4;
+}
+.flex-6 {
+    flex: 6;
+}
+
+[class*='flex-'] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-buttons{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    text-align: center;
+    
+}
